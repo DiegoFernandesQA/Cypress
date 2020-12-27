@@ -2,13 +2,6 @@
 
 const { describe } = require("mocha")
 
-cy.check()
+// cy.check()
 
-describe('', () => {
-    it('', () => {
-        
-    }  
-    it('', () => {
-        
-    }
-}
+// cy.visit('http://demo.automationtesting.in/Register.html')
