@@ -57,6 +57,8 @@ context('Cadastro', () => {
 
         cy.get('button#submitbtn').click();
 
+        // asserção expect and should
+
         cy.wait('@postNewtable').then((resNewtable) => {
             //console.log(resNewtable.status)
             //cy.log(resNewtable.status)
@@ -74,6 +76,7 @@ context('Cadastro', () => {
         })
 
         cy.url().should('contain', 'WebTable');
+        
 
     });
 });

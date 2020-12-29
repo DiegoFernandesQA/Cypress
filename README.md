@@ -10,13 +10,10 @@ Initial codes in language node js for test automation with framework **cypress**
 
 ## Run
 
-- [x]
+- [x] routes
 
 ```
-git status
-git add
-git commit
-comments
+npx cypress open
 ```
 
-> line code
+> npx cypress open
