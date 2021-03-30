@@ -1,7 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/cypress-io/cypress/develop/cli/schema/cypress.schema.json",
-    "baseUrl": "http://demo.automationtesting.in",
+    "baseUrl": "http://fakerestapi.azurewebsites.net/api/",
     "experimentalSourceRewriting": true,
     "watchForFileChanges": false,
-    "testFiles": "**/*.{feature, features}"
+    "testFiles": "**/*.{feature, features, js}"
 }
